@@ -182,7 +182,7 @@ a img{
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
-  color: #767777;
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -236,8 +236,8 @@ a img{
 
 .android-wear {
   display: inline-block;
-  width: 160px;
-  margin-right: 32px;
+  width: 420px;
+  margin-right: 5px;
 }
 
   .android-wear .android-screen-image {
@@ -538,5 +538,13 @@ a img{
 
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
+  }
+
+  .mdl-layout__drawer {
+    background: #000;
+    color: #fff;
+  }
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+    color: #fff;
   }
 }
